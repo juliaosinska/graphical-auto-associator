@@ -5,8 +5,7 @@ from PIL import Image
 from perceptron import Perceptron
 from associator import denoise
 import pickle
-from config import (RANDOM_SEED, WIDTH, HEIGHT, INPUT_SIZE, EPOCHS, NOISE_PROBABILITY, TRAINING_DATA_FOLDER, 
-                    MODEL_FILE)
+from config import (RANDOM_SEED, WIDTH, HEIGHT, INPUT_SIZE, EPOCHS, NOISE_PROBABILITY, TRAINING_DATA_FOLDER, MODEL_FILE)
 
 # set random seeds for reproducible results
 random.seed(RANDOM_SEED)
