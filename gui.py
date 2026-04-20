@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog
 import numpy as np
 from PIL import Image, ImageTk
-from classifier import denoise, denoise_iterative
+from associator import denoise, denoise_iterative
 from config import WIDTH, HEIGHT, PIXEL_SIZE, WINDOW_WIDTH, WINDOW_HEIGHT, MODEL_FILE, NOISE_PROBABILITY, MAX_ITER_STEPS
 
 CANVAS_WIDTH = WIDTH * PIXEL_SIZE

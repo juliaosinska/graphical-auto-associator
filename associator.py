@@ -15,6 +15,3 @@ def denoise_iterative(perceptrons, x, steps):
         current = next_state
 
     return history
-
-def classify(perceptrons, x):
-    return denoise(perceptrons, x)

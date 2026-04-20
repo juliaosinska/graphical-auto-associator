@@ -3,7 +3,7 @@ import numpy as np
 import random
 from PIL import Image
 from perceptron import Perceptron
-from classifier import denoise
+from associator import denoise
 import pickle
 from config import (RANDOM_SEED, WIDTH, HEIGHT, INPUT_SIZE, EPOCHS, NOISE_PROBABILITY, TRAINING_DATA_FOLDER, 
                     MODEL_FILE)
